@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.header h1{
+    color: rgb(197, 89, 197);
+}
+.search-products{
+    flex: 1;
+    margin: 0 10%;
+    display: flex;
+}
+.search-products input{
+    flex: 1;
+    height: 30px;
+    border: 1px solid rgb(197, 89, 197);
+    padding: 5px;
+    outline: none;
+}
+.search-products button{
+    border: 1px solid rgb(197, 89, 197);
+    padding: 5px;
+}
+.navbar ul{
+    display: flex;
+    color: rgb(197, 89, 197);;
+    list-style-type: none;
+    gap: 10px;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: inherit;
+}

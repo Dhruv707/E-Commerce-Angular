@@ -1,0 +1,7 @@
+.signup{
+    color: rgb(177, 31, 177);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
